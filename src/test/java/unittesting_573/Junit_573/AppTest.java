@@ -15,7 +15,7 @@ public class AppTest
 	@Test
     public void test(){
     	App a=new App();
-    	int actual=a.add(35,38);
+    	int actual=a.add(35,35);
     	int expected=73;
     	assertEquals(expected,actual);
     }
